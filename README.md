@@ -17,7 +17,7 @@ This project focused on developing an elastic face recognition application using
    - **Testing:** Validated functionality using a provided workload generator, ensuring the correct handling and output of recognition results.
 
 3. **App Tier Development:**
-   - **App Tier Instances:** Created AMIs and launched app tier instances, implementing custom autoscaling to adjust instance numbers based on demand. Implemented queues to buffer requests and decouple the architecture.
+   - **App Tier Instances:** Created AMIs and launched app tier instances, implementing custom autoscaling to adjust instance numbers based on demand. Implemented queues using SQS to buffer requests and decouple the architecture.
 
 4. **Data Tier Implementation:**
    - **S3 Buckets:** Utilized S3 for storing input images and recognition results with specific naming conventions.
